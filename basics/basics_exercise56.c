@@ -9,10 +9,7 @@ int main ()
     scanf("%d", &a);
 
     printf("Integer value: %d\n", a);
-
-    a <<= 2;
-
-    printf("The left shifted data is: %d", a);
+    printf("The left shifted data is: %d", a<<= 2);
 
     return 0;
 }

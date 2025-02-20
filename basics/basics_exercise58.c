@@ -5,7 +5,7 @@
 int main ()
 {
     int i;
-    float arr[4], res=0;
+    float arr[4], res;
     printf("Input real four numbers:\n");
 
     for(i=0; i<4; i++)

@@ -5,7 +5,6 @@
 int main ()
 {
     int a, i;
-    float sum=0;
     printf("Input any number: ");
     scanf("%d", &a);
 
@@ -15,6 +14,7 @@ int main ()
         printf(" + 1/%d", i);
 
     // Calculating the sequence
+    float sum=0;
     for(i=1; i<=a+1; i++)
         sum += 1/(float)i;
 

@@ -4,11 +4,11 @@
 
 int main ()
 {
-    int a;
+    float a;
     printf("Input Data: ");
-    scanf("%d", &a);
+    scanf("%f", &a);
 
-    printf("Distance of %.2f cms is = %.2f inches", (float)a, (float)a/2.54);
+    printf("Distance of %.2f cms is = %.2f inches", a, a/2.54);
 
     return 0;
 }
